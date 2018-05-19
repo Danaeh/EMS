@@ -1,0 +1,27 @@
+{
+  "name": "agentmile-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gelito@bitbucket.org/kubide/agentmile-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/kubide/agentmile-landing-page#readme",
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "bootstrap": "^4.0.0",
+    "counter": "^0.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "smooth-scroll": "^12.1.5",
+    "smoothscroll": "^0.4.0",
+    "toastr": "^2.1.4",
+    "util": "^0.10.3"
+  }
+}

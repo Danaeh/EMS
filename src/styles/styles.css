@@ -1,0 +1,144 @@
+body{
+    font-family: 'fonts/Merriweather/Merriweather-Regular.ttf','Open Sans';
+    color: black;
+    font-size: 14px;
+    background-color: rgba(150, 75, 224, 0.32);
+}
+
+
+h1 {font-size: 3.21em; line-height: 1.36em}
+h2 {font-size: 22px;}
+h3 {font-size:2em;}
+h4 {font-size: 1.78em;}
+h5 {font-size: 1.47em;}
+h6 {font-size: 1.05em;}
+
+
+.primary-color{
+    color: black;
+}
+
+a.primary-color:hover {
+    color: #2f9aef;
+}
+
+.secondary-color{
+    color: #2f9aef;
+}
+.terciary-color{
+    color: #ffffff;
+}
+
+.light-font{
+    font-weight: 300;
+}
+
+.regular-font{
+    font-weight: 600;
+}
+
+.semi-bold-font{
+    font-weight: 600;
+}
+
+.bold-font{
+    font-weight: 700;
+}
+
+.extra-bold-font{
+    font-weight: 800;
+}
+
+.font-size-l{
+    font-size: 1.42em;
+}
+
+.font-size-s{
+    font-size: 0.84em;
+}
+
+.font-size-xs {
+    font-size: 0.68em;
+}
+
+.mt-50 {
+    margin-top:50px;
+}
+
+.mt-100 {
+    margin-top:100px;
+}
+.mt-200 {
+    margin-top:200px;
+}
+
+.mt-80 {
+    margin-top:80px;
+}
+
+.ml-70{
+    margin-left: 70px;
+}
+.p-40{
+    padding: 40px;
+}
+
+
+/* HEADER*/
+
+
+.header-shadow{
+    box-shadow: 0px 5px 12px -2px rgba(202,202,202,1);
+    background-color: #fff;
+}
+
+header.navbar .nav-link{
+    color: #1e205a;
+    font-weight: 600;
+    font-size: 1.05em;
+}
+
+
+
+@media (min-width:768px) {
+
+    .img_background1,
+    .img_background2,
+    .img_background3,
+    .img_background4 {
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .img_background1 {
+        background-image: url("../assets/nature-3082832_1920.jpg");
+        min-height: 100%;
+    }
+
+    .img_background2 {
+        background-image: url("../assets/nathan-fertig-271363-unsplash.jpg");
+        min-height: 400px;
+    }
+
+    .img_background3 {
+        background-image: url("../assets/nick-karvounis-599740-unsplash.jpg");
+        min-height: 400px;
+    }
+
+    .img_background4 {
+        background-image: url("../assets/coast-3358820_1920.jpg");
+        min-height: 100%;
+    }
+}
+
+@media (min-device-width: 768px) {
+    .img_background1,
+    .img_background2,
+    .img_background3,
+    .img_background4 {
+        background-attachment: fixed;
+    }
+}
