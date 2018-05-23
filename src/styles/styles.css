@@ -6,7 +6,7 @@ body{
 
 
 h1 {font-size: 3.21em; line-height: 1.36em}
-h2 {font-size: 22px;}
+h2 {font-size: 2.40em;}
 h3 {font-size:2em;}
 h4 {font-size: 1.78em;}
 h5 {font-size: 1.47em;}
@@ -96,4 +96,21 @@ header.navbar .nav-link{
     font-weight: 600;
     font-size: 1.05em;
 }
+.nav-pills .nav-link{
+    text-align: center;
+    box-shadow: 0px 5px 12px -2px rgba(202,202,202,1);
+}
+.nav-pills .nav-link.active{
+    background-color: rgb(215, 221, 226);
+}
 
+footer{
+    background-color: black;
+    color: darkgrey;
+}
+@media (min-width: 991px) {
+    .nav-pills .nav-link{
+        box-shadow: none;
+    }
+    
+}
