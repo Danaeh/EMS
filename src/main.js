@@ -29,11 +29,9 @@ $(document).ready(function() {
     if(header.offset().top !== 0){
       if(!header.hasClass('header-shadow')){
         header.addClass('header-shadow');
-        header.addClass('bg-white')
       }
     }else{
       header.removeClass('header-shadow');
-      header.removeClass('bg-white')
     }
   });
 
