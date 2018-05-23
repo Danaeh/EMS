@@ -2,7 +2,6 @@ body{
     font-family: 'fonts/Merriweather/Merriweather-Regular.ttf','Open Sans';
     color: black;
     font-size: 14px;
-    background-color: rgba(150, 75, 224, 0.32);
 }
 
 
@@ -98,47 +97,3 @@ header.navbar .nav-link{
     font-size: 1.05em;
 }
 
-
-
-@media (min-width:768px) {
-
-    .img_background1,
-    .img_background2,
-    .img_background3,
-    .img_background4 {
-        background-attachment: scroll;
-        background-repeat: no-repeat;
-        position: relative;
-        background-position: center;
-        background-size: cover;
-    }
-
-    .img_background1 {
-        background-image: url("../assets/nature-3082832_1920.jpg");
-        min-height: 100%;
-    }
-
-    .img_background2 {
-        background-image: url("../assets/nathan-fertig-271363-unsplash.jpg");
-        min-height: 400px;
-    }
-
-    .img_background3 {
-        background-image: url("../assets/nick-karvounis-599740-unsplash.jpg");
-        min-height: 400px;
-    }
-
-    .img_background4 {
-        background-image: url("../assets/coast-3358820_1920.jpg");
-        min-height: 100%;
-    }
-}
-
-@media (min-device-width: 768px) {
-    .img_background1,
-    .img_background2,
-    .img_background3,
-    .img_background4 {
-        background-attachment: fixed;
-    }
-}
